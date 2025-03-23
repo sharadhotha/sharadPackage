@@ -1,4 +1,6 @@
 my_theme <- function() {
+  usethis::use_package("ggplot2")
+  library(ggplot2)
   theme_minimal() + 
     theme(
       text = element_text(family = "Arial", size = 14),
