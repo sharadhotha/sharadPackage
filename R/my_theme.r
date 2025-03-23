@@ -7,4 +7,4 @@ my_theme <- function() {
       axis.text = element_text(size = 10),
       legend.position = "top"
     )
-}
+} 
