@@ -1,3 +1,4 @@
+#' @export
 my_theme <- function() {
   usethis::use_package("ggplot2")
   library(ggplot2)
